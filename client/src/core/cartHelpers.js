@@ -18,7 +18,7 @@ export const addItem = (item = [], count = 0, next = (f) => f) => {
     // ...with the array of ids we got on when first map() was used
     // run map() on it again and return the actual product from the cart
 
-    cart = Array.from(new Set(cart.map((p) => p._id))).map((id) => {
+    cart = Array.from(new Set(cart.map((p) => p._id)))?.map((id) => {
       return cart.find((p) => p._id === id);
     });
 

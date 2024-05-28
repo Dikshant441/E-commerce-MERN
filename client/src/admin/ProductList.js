@@ -32,7 +32,7 @@ const ProductList = () => {
           <hr />
           <ul className='list-group'>
             {products.length > 0 ? (
-              products.map((p, i) => (
+              products?.map((p, i) => (
                 <li key={i} className='list-group-item'>
                   {p.name}
                 </li>

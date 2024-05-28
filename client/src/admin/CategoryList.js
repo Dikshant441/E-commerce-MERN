@@ -33,7 +33,7 @@ const CategoryList = () => {
           <hr />
           <ul className='list-group'>
             {categories.length > 0 ? (
-              categories.map((c, i) => (
+              categories?.map((c, i) => (
                 <li key={i} className='list-group-item'>
                   {c.name}
                 </li>
