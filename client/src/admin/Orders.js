@@ -90,7 +90,7 @@ const Orders = () => {
         <div className='col-md-8 offset-md-2'>
           {showOrdersLength()}
 
-          {orders.map((o, oIndex) => {
+          {orders?.map((o, oIndex) => {
             return (
               <div
                 className='mt-5'
@@ -120,7 +120,7 @@ const Orders = () => {
                   Total products in the order: {o.products.length}
                 </h3>
 
-                {o.products.map((p, pIndex) => (
+                {o.products?.map((p, pIndex) => (
                   <div
                     className='mb-4'
                     key={pIndex}

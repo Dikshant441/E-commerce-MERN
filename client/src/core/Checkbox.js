@@ -20,7 +20,7 @@ const Checkbox = ({ categories, handleFilters }) => {
     handleFilters(newCheckedCategoryId);
   };
 
-  return categories.map((c, i) => (
+  return categories?.map((c, i) => (
     <li key={i} className='list-unstyled'>
       <CheckboxM
         onChange={handleToggle(c._id)}
