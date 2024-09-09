@@ -18,7 +18,7 @@
 ## Installation process
 1. #### clone the repo using this command
     ```bash
-    git clone https://github.com/ashraf-kabir/mern-ecommerce.git
+    git clone https://github.com/Dikshant441/E-commerce-MERN.git
     ```
 2. #### install npm packages
     1. install backend packages
@@ -58,13 +58,6 @@
     ```env
     REACT_APP_API_URL=YOUR_API_URL
     ```
-    ##### Instructions:
-    1. for mongodb atlas database creation follow this tutorial->https://www.youtube.com/watch?v=KKyag6t98g8
-    2. you can use any random string as JWTSECRET
-    3. for localhost REACT_APP_API_URL is http://localhost:5000/api
-       but for heroku (server deployment) it will be different
-    4. #### note: add .env on .gitignore
-    5. for server deployment use secrets directly
 
 5. <b>deploy this project</b> on your local server by using this command
     ```bash
