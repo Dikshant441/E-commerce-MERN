@@ -6,6 +6,15 @@
 
 > Database-> MongoDB
 
+![0](https://github.com/user-attachments/assets/9bec640e-fd69-4607-a3f1-e6cd55c42b54)
+![1](https://github.com/user-attachments/assets/ac2634df-bbfe-4ad6-b6fc-a7b30d377e63)
+![2](https://github.com/user-attachments/assets/e938453d-f2de-4ad1-ba40-846839cf8686)
+![4](https://github.com/user-attachments/assets/78303685-f35e-491a-98de-cabd42827650)
+![5](https://github.com/user-attachments/assets/dafc919f-17a7-478b-a0b6-1e70d9f6d6df)
+![6](https://github.com/user-attachments/assets/9a9cf227-726c-4e1b-b90b-fa844230848a)
+![7](https://github.com/user-attachments/assets/b57f1a5a-edc4-42f2-b60e-a1a0ef785f0e)
+![8](https://github.com/user-attachments/assets/d15f9953-498c-4944-9ad0-f835b3130d42)
+
 ## Installation process
 1. #### clone the repo using this command
     ```bash
@@ -81,5 +90,5 @@
     8. admin can view ordered products
     9. admin can change the status of a product (processing, shipped, delivered, etc.)
 
-6. <b>Deployed on: (No longer available due to heroku free dyno plan has deprecated)</br> https://ecommerce-ak.herokuapp.com/ 
+## For any queries related to the project, contact at singhdikshant200@gmail.com
 7. raise a star to support me
